@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="ex016.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Verificador de Idade</h1>
     </header>
 
     <section>
         <div>
-            Testando
-        </div>
-        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" id="ano" name="ano" min="0">
+            </p>
 
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+
+        </div>
+
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado!
         </div>
     </section>
 
@@ -24,6 +39,6 @@
         <p>&copy; CursoemVideo</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="ex016.js"></script>
 </body>
 </html>
