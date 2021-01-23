@@ -1,2 +1,2 @@
-# -Estudo-cursojs
- [Estudo] Curso de javascript do "Curso em Vídeo"
+# -Estudo-js
+ [Estudo] Estudos de javascript
